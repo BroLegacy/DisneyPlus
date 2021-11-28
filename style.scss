@@ -70,7 +70,7 @@ header > div {
   flex-direction: column;
 }
 
-header .btn {
+section .btn {
   background-color: var(--primary);
   border-color: var(--primary);
   padding: 16.5px 25px;
@@ -93,15 +93,14 @@ ul {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
   margin: 0px 20px 30px 0px;
   margin-right: 20px;
   text-align: left;
   font-weight: bold;
 }
 
-p {
-  height: 48px;
+.grid-item > p {
   font-size: 14px;
   margin: 0 0 20px;
   color: var(--silver);
@@ -112,6 +111,7 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 .grid-item {
   box-sizing: border-box;
   display: flex;
@@ -119,6 +119,10 @@ p {
   list-style: none;
   padding: 12px;
   width: 50%;
+}
+
+.grid-item > p {
+  height: 48px;
 }
 
 .both-ends {
@@ -160,4 +164,48 @@ span > a {
 
 .sign {
   font-size: 18px;
+}
+
+.look {
+  display: flex;
+  align-items: center;
+  padding: 90px;
+}
+
+.scrum {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+
+.postScrum {
+  font-size: 20px;
+  padding: 0 2vw;
+  text-align: left;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.text {
+  color: var(--silver);
+  display: block;
+  flex-direction: column;
+  list-style: disc;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.text > li {
+  margin-bottom: 20px;
+}
+
+.midSign {
+  padding: 5.6vw;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  max-width: 360px;
 }
