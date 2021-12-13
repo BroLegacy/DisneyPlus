@@ -255,3 +255,22 @@ li > p {
   line-height: 28px;
   font-size: 18px;
 }
+
+footer {
+  position: relative;
+  box-sizing: border-box;
+  padding: 26px 8px;
+  text-align: center;
+}
+footer > img {
+  display: block;
+  block-size: 43.5px;
+  height: 43.5px;
+}
+
+.langue {
+  position: relative;
+  display: inline-block;
+  opacity: 0.6;
+  margin: 0 8px;
+}
